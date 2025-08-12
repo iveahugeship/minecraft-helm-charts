@@ -16,4 +16,24 @@ entries:
     urls:
     - minecraft-lib-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-12T14:38:41.571012645Z"
+  minecraft-server:
+  - apiVersion: v2
+    created: "2025-08-12T14:43:33.300698527Z"
+    dependencies:
+    - name: minecraft-lib
+      repository: https://clucktopia.github.io/helm-charts
+      version: ~0.0.0
+    description: A flexible Helm chart to run a Minecraft Java Edition server
+    digest: 3d0a98c98868b467bbfc780abab35ae4b6e340068a6303f2dfe6aa09f80a883d
+    home: https://github.com/clucktopia
+    maintainers:
+    - email: iveahugeship@gmail.com
+      name: iveahugeship
+    name: minecraft-server
+    sources:
+    - https://github.com/itzg/docker-minecraft-server
+    type: application
+    urls:
+    - minecraft-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-08-12T14:43:33.300703737Z"
