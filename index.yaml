@@ -18,25 +18,6 @@ entries:
     version: 0.1.0
   minecraft-proxy:
   - apiVersion: v2
-    created: "2025-08-12T14:44:25.939758516Z"
-    dependencies:
-    - name: minecraft-lib
-      repository: https://clucktopia.github.io/helm-charts
-      version: ~0.0.0
-    description: A flexible Helm chart to run a Minecraft Proxy server
-    digest: e7af40cbb8f62c93581c66e3e753972ab9e871fa30b3b8a3adc49baaa9bb6ef5
-    home: https://github.com/clucktopia
-    maintainers:
-    - email: iveahugeship@gmail.com
-      name: iveahugeship
-    name: minecraft-proxy
-    sources:
-    - https://github.com/itzg/docker-mc-proxy
-    type: application
-    urls:
-    - minecraft-proxy-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2025-08-12T14:46:28.412469204Z"
     dependencies:
     - name: minecraft-lib
