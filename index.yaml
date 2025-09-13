@@ -16,4 +16,24 @@ entries:
     urls:
     - minecraft-lib-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-13T18:41:23.310977719Z"
+  minecraft-proxy:
+  - apiVersion: v2
+    created: "2025-09-13T18:48:06.454882478Z"
+    dependencies:
+    - name: minecraft-lib
+      repository: https://iveahugeship.github.io/minecraft-helm-charts
+      version: ~0.0.0
+    description: A flexible Helm chart to run a Minecraft Proxy server
+    digest: b1c8945c0860ae227404672b7e0b1f0c4f2739f79357e6014dd549fb19928953
+    home: https://github.com/iveahugeship/minecraft-helm-charts
+    maintainers:
+    - email: iveahugeship@gmail.com
+      name: iveahugeship
+    name: minecraft-proxy
+    sources:
+    - https://github.com/itzg/docker-mc-proxy
+    type: application
+    urls:
+    - minecraft-proxy-0.1.1.tgz
+    version: 0.1.1
+generated: "2025-09-13T18:48:06.454893719Z"
