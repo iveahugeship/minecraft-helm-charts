@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  minecraft-lib:
+  - apiVersion: v2
+    created: "2025-09-13T18:41:23.31096765Z"
+    description: A library Helm Chart to use with Minecraft Charts
+    digest: 8ec719db764c5551e1b213813ae9f78d718919dd2fdedd7198c46fc8c0d0257c
+    home: https://github.com/iveahugeship/minecraft-helm-charts
+    maintainers:
+    - email: iveahugeship@gmail.com
+      name: iveahugeship
+    name: minecraft-lib
+    sources:
+    - https://github.com/iveahugeship
+    type: library
+    urls:
+    - minecraft-lib-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-09-13T18:41:23.310977719Z"
