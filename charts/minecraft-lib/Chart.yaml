@@ -3,9 +3,9 @@ name: minecraft-lib
 description: A library Helm Chart to use with Minecraft Charts
 type: library
 version: 0.1.0
-home: "https://github.com/clucktopia"
+home: "https://github.com/iveahugeship/minecraft-helm-charts"
 sources:
-  - "https://github.com/clucktopia"
+  - "https://github.com/iveahugeship"
 maintainers:
   - name: iveahugeship
     email: iveahugeship@gmail.com
