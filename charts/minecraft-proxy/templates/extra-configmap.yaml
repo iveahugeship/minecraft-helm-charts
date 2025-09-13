@@ -1,0 +1,12 @@
+{{- range .Values.extraConfigMounts }}
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  labels: {{- include "lib.labels.common" $ | nindent 4 }}
+  name: {{ include "lib.names.fullname" $ }}-{{ .name }}
+data:
+  {{- range $key, $cfg := .content }}
+  {{ include "lib.strings.normalize" ( dict "str" $key ) }}: {{- include "lib.utils.toYaml" ( dict "obj" $cfg "tpl" true "ctx" $ ) | indent 2 }}
+  {{- end }}
+{{- end }}
