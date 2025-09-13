@@ -2,7 +2,7 @@ apiVersion: v2
 name: minecraft-server
 description: A flexible Helm chart to run a Minecraft Java Edition server
 type: application
-version: 0.1.1
+version: 0.1.2
 home: "https://github.com/clucktopia"
 sources:
   - "https://github.com/itzg/docker-minecraft-server"

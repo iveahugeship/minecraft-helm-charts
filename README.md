@@ -11,7 +11,7 @@ This repository contains Helm charts for deploying a Minecraft server on Kuberne
 Once Helm has been set up correctly, add the repo as follows:
 
 ```
-helm repo add clucktopia https://clucktopia.github.io/helm-charts
+helm repo add minecraft https://iveahugeship.github.io/minecraft-helm-charts/
 ```
 
 You can then run `helm search repo clucktopia` to see the charts.

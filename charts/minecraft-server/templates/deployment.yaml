@@ -259,7 +259,7 @@ spec:
         - name: tmp-volume
           mountPath: /tmp
         - name: server-volume
-          mountPath: /server
+          mountPath: /data
         {{- if .Values.server.curseforgeFiles }}
         - name: curseforge-secret
           mountPath: /secrets/curseforge
