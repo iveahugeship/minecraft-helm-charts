@@ -14,7 +14,7 @@ Once Helm has been set up correctly, add the repo as follows:
 helm repo add minecraft https://iveahugeship.github.io/minecraft-helm-charts/
 ```
 
-You can then run `helm search repo clucktopia` to see the charts.
+You can then run `helm search repo minecraft` to see the charts.
 
 ## Charts
 
